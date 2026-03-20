@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Audit System — Website Intelligence Platform',
+  title: 'AuditLens — Website Intelligence Platform',
   description: 'Professional SEO, Accessibility & AI Visibility auditing for modern websites.',
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   fontSize: 18, fontWeight: 800, color: 'white',
                 }}>A</div>
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: '1rem', color: 'var(--text)' }}>AuditSystem</div>
+                  <div style={{ fontWeight: 700, fontSize: '1rem', color: 'var(--text)' }}>AuditLens</div>
                   <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: -2 }}>Website Intelligence</div>
                 </div>
               </a>
@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
           <footer style={{ borderTop: '1px solid var(--border)', padding: '1.5rem 0' }}>
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between" style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>
-              <span>© 2026 AuditSystem. All rights reserved.</span>
+              <span>© 2026 AuditLens. All rights reserved.</span>
               <span>SEO · Accessibility · AI Visibility</span>
             </div>
           </footer>

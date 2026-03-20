@@ -35,7 +35,7 @@ export const DEFAULT_AUDIT_CONFIG: Omit<AuditConfig, 'url'> = {
     { width: 375, height: 812, label: 'mobile' },
   ],
   userAgent:
-    'AuditBot/1.0 (+https://github.com/audit-system; audit@example.com)',
+    'AuditLens/1.0 (+https://auditlens.com; hello@auditlens.com)',
   pillars: ['seo', 'au', 'geo'],
   geoQueries: [],
   geoEngines: ['chatgpt', 'perplexity'],

@@ -69,7 +69,7 @@ const auditId = randomUUID();
 
 console.log('');
 console.log('╔══════════════════════════════════════════════════════╗');
-console.log('║            WEBSITE AUDIT SYSTEM v0.1                ║');
+console.log('║                  AuditLens v0.1                     ║');
 console.log('╚══════════════════════════════════════════════════════╝');
 console.log('');
 console.log(`  URL:        ${url}`);

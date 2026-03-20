@@ -72,7 +72,7 @@ export default function DashboardPage() {
       {/* Hero */}
       <div className="mb-8">
         <h1 style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--text)', marginBottom: 8 }}>
-          Website Audit Dashboard
+          AuditLens Dashboard
         </h1>
         <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
           Monitor SEO health, accessibility compliance, and AI visibility across all your websites.
