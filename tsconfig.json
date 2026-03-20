@@ -1,0 +1,14 @@
+{
+  "references": [
+    { "path": "packages/types" },
+    { "path": "packages/crawler" },
+    { "path": "packages/seo-engine" },
+    { "path": "packages/au-engine" },
+    { "path": "packages/geo-engine" },
+    { "path": "packages/scoring" },
+    { "path": "packages/reporter" },
+    { "path": "packages/db" },
+    { "path": "apps/api" }
+  ],
+  "files": []
+}

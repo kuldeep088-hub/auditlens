@@ -1,0 +1,15 @@
+{
+  "name": "@audit/au-engine",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@audit/types": "*",
+    "cheerio": "^1.0.0"
+  }
+}

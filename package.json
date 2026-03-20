@@ -1,0 +1,24 @@
+{
+  "name": "audit-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "audit:run": "npx tsx scripts/run-audit.ts",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "clean": "rm -rf packages/*/dist apps/*/dist node_modules/.cache"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

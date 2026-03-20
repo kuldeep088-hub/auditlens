@@ -1,0 +1,22 @@
+{
+  "name": "@audit/api",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@audit/types": "*",
+    "@audit/crawler": "*",
+    "@audit/seo-engine": "*",
+    "@audit/au-engine": "*",
+    "@audit/geo-engine": "*",
+    "@audit/scoring": "*",
+    "@audit/reporter": "*",
+    "@audit/db": "*",
+    "fastify": "^5.0.0",
+    "@fastify/cors": "^10.0.0"
+  }
+}
